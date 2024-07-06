@@ -1,8 +1,13 @@
 import React from 'react'
+import { SignupFormDemo } from '../components/ContactDetails'
 
 function page() {
   return (
-    <div> test contact</div>
+
+      <> 
+      <SignupFormDemo></SignupFormDemo>
+      </>
+     
   )
 }
 
